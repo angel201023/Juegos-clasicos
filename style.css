@@ -1,0 +1,42 @@
+body{
+    background-color: #00e4ff;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 70px;
+}
+h2{
+    font-family: cursive;
+    font-size: 30px;
+}
+hr{
+    height: 50px;
+    background-color: #ff9a2b;
+}
+.img1 {
+    position: relative;
+    left: 20px;
+    width: 15rem;
+    height: 14rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC9K1hyIVPhmhLJjwQGQBkvRqHAuGIxPzF7jXi3jQ_3DQMK5AUI63lEkFYEtCxT1-f7M&usqp=CAU);
+    background-size: cover;
+    border-radius: 10%;
+    border: 1px solid #5192c9;
+    box-shadow: 5px 5px 10px #526776;
+    background-position: center;
+    cursor: pointer;
+    transition:all  linear 5s;
+}
+.box-title {
+    width: 100%;
+}
+
+
+.img1:active {
+    left: 500px;
+    border-radius: 100%;
+
+}
