@@ -28,15 +28,9 @@ hr{
     box-shadow: 5px 5px 10px #526776;
     background-position: center;
     cursor: pointer;
-    transition:all  linear 5s;
+    
 }
 .box-title {
     width: 100%;
 }
 
-
-.img1:active {
-    left: 500px;
-    border-radius: 100%;
-
-}
